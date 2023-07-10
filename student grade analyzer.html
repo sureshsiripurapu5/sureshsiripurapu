@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Analyzer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Student Grade Analyzer</h1>
+    <div>
+        <label for="gradeInput">Enter a grade:</label>
+        <input type="number" id="gradeInput">
+        <button onclick="addGrade()">Add Grade</button>
+    </div>
+    <div>
+        <button onclick="calculateAverage()">Calculate Average</button>
+        <button onclick="findHighestGrade()">Find Highest Grade</button>
+        <button onclick="findLowestGrade()">Find Lowest Grade</button>
+    </div>
+    <div id="gradeReport"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

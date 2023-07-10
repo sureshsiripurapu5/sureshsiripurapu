@@ -1,0 +1,55 @@
+/* Custom CSS for the portfolio */
+
+/* Hero Section */
+#hero {
+  padding: 100px 0;
+}
+
+/* About Section */
+#about {
+  padding: 100px 0;
+}
+
+#about h2 {
+  margin-bottom: 30px;
+}
+
+#about p {
+  margin-bottom: 30px;
+}
+
+/* Skills Section */
+#skills {
+  padding: 100px 0;
+}
+
+#skills h2 {
+  margin-bottom: 30px;
+}
+
+#skills .progress {
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+#skills .progress-bar {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 100px 0;
+}
+
+#contact h2 {
+  margin-bottom: 30px;
+}
+
+#contact form .form-group {
+  margin-bottom: 30px;
+}
+
+#contact form textarea {
+  resize: none;
+}

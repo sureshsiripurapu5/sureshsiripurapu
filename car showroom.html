@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Showroom Repairs & Tires</title>
+    <link rel="stylesheet" type="text/css" href="car.css">
+</head>
+<body>
+    <h1>Car Showroom Repairs & Tires</h1>
+    <form id="carForm">
+        <h2>Car Information</h2>
+        <div>
+            <label for="carMake">Car Make:</label>
+            <input type="text" id="carMake" required>
+        </div>
+        <div>
+            <label for="carModel">Car Model:</label>
+            <input type="text" id="carModel" required>
+        </div>
+        <div>
+            <label for="repairType">Repair Type:</label>
+            <select id="repairType" required>
+                <option value="">Select Repair Type</option>
+                <option value="Engine Repair">Engine Repair</option>
+                <option value="Brake Repair">Brake Repair</option>
+                <option value="Electrical Repair">Electrical Repair</option>
+            </select>
+        </div>
+        <div>
+            <label for="tireBrand">Tire Brand:</label>
+            <input type="text" id="tireBrand" required>
+        </div>
+        <div>
+            <label for="tireSize">Tire Size:</label>
+            <input type="text" id="tireSize" required>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="car.js"></script>
+</body>
+</html>
